@@ -13,7 +13,7 @@ function mascara(i,j){
         if (v.length == 11) i.value += "-";
     } else{ 
         i.setAttribute("maxlength", "14");
-        if(v.length == null) i.value += "(";
+        if(v.length == 1) i.value = "(" + i.value;
         if (v.length == 2) i.value += ") ";
         if (v.length == 10) i.value += "-";
     }
