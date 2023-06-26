@@ -12,9 +12,9 @@ function mascara(i,j){
         if (v.length == 11) i.value += "-";
     }else{
         i.setAttribute("maxlength", "15");
-        if (v.length == null) i.value += "(";
+        if (v.length == 1) i.value -= "(";
         if (v.length == 2) i.value += ") ";
-        if (v.length == 8) i.value += "-";
+        if (v.length == 9) i.value += "-";
     }
  
  }
