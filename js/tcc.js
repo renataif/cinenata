@@ -7,14 +7,14 @@ function mascara(i,j){
        return;
     }
     if(j=='cpf'){
-        i.setAttribute("maxlength", "14");
+        i.setAttribute("maxlength", "13");
         if (v.length == 3 || v.length == 7) i.value += ".";
         if (v.length == 11) i.value += "-";
     }else{
-        i.setAttribute("maxlength", "16");
+        i.setAttribute("maxlength", "15");
         if (v.length == null) i.value += "(";
         if (v.length == 2) i.value += ") ";
-        if (v.length == 10) i.value += "-";
+        if (v.length == 8) i.value += "-";
     }
  
  }
