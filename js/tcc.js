@@ -1,4 +1,4 @@
-function mascara(i){
+function mascara(i,j){
    
     var v = i.value;
     
@@ -6,9 +6,15 @@ function mascara(i){
        i.value = v.substring(0, v.length-1);
        return;
     }
-    
-    i.setAttribute("maxlength", "14");
-    if (v.length == 3 || v.length == 7) i.value += ".";
-    if (v.length == 11) i.value += "-";
+    if(j=='cpf'){
+        i.setAttribute("maxlength", "14");
+        if (v.length == 3 || v.length == 7) i.value += ".";
+        if (v.length == 11) i.value += "-";
+    }else{
+        i.setAttribute("maxlength", "16");
+        if (v.length == 0) i.value += "(";
+        if (v.length == 2) i.value += ") ";
+        if (v.length == 10) i.value += "-";
+    }
  
  }
