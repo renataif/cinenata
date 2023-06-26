@@ -14,7 +14,7 @@ function mascara(i,j){
     } else{ 
         i.setAttribute("maxlength", "14");
         if(v.length == 1) i.value = "(" + i.value;
-        if (v.length == 2) i.value += ") ";
+        if (v.length == 3) i.value += ") ";
         if (v.length == 10) i.value += "-";
     }
 }
