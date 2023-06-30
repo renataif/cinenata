@@ -1,7 +1,10 @@
+body{
+    margin: 0 auto;
+}
 .formulario{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
+    gap: 30px;
 }
 .form-group{
     width:350px;
