@@ -3,7 +3,3 @@
     grid-template-columns: 1fr 1fr;
     gap: 30px;
 }
-.form-group{
-    width:350px;
-    margin-bottom: 15px;
-}
