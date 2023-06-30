@@ -1,4 +1,9 @@
 .formulario{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+.form-group{
+    width:350px;
+    margin-bottom: 15px;
 }
