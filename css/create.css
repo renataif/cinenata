@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    align-items: center;
 }
 .form-group{
     margin: 0;
