@@ -30,8 +30,8 @@ h2, h3, p{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.filme img{
-    width: 200px;
+.filme .exc{
+    width: 350px;
 }
 
 .filme-desc{
