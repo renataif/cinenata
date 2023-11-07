@@ -39,3 +39,15 @@ h2, h3, p{
     align-items: center;
     gap: 5px;
 }
+.desc-filme1::after {
+    background: url("/img/classificacao-livre.svg") no-repeat 0px 2px;
+}
+.desc-filme2::after {
+    background: url("/img/classificacao-12-anos.svg") no-repeat 0px 2px;
+}
+.desc-filme3::after {
+    background: url("/img/classificacao-14-anos.svg") no-repeat 0px 2px;
+}
+.desc-filme4::after {
+    background: url("/img/classificacao-18-anos.svg") no-repeat 0px 2px;
+}
