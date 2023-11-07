@@ -36,5 +36,6 @@ h2, h3, p{
 
 .filme-desc{
     display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 5px;
 }
