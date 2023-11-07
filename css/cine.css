@@ -12,6 +12,16 @@ header{
     padding-bottom: 10px;
 }
 header img{
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.exibicao{
+    margin-top: 60px;
+}
+
+.filmes{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
