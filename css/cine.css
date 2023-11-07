@@ -20,8 +20,21 @@ header img{
     margin-top: 60px;
 }
 
+h2, h3, p{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
 .filmes{
     margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.filme img{
+    width: auto;
+}
+
+.filme-desc{
+    display: grid;
+    gap: 5px;
 }
