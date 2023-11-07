@@ -17,7 +17,7 @@ header img{
 }
 
 .exibicao{
-    margin: 0 auto;
+    margin-top: 60px;
 }
 
 h2, h3, p{
@@ -40,22 +40,22 @@ h2, h3, p{
     gap: 5px;
 }
 .desc-filme1::after {
+    content: url("/img/classificacao-livre.svg") no-repeat 0px 2px;
     width: 20px;
     height: 20px;
-    background: url("/img/classificacao-livre.svg") no-repeat 0px 2px;
 }
 .desc-filme2::after {
+    content: url("/img/classificacao-livre.svg") no-repeat 0px 2px;
     width: 20px;
     height: 20px;
-    background: url("/img/classificacao-12-anos.svg") no-repeat 0px 2px;
 }
 .desc-filme3::after {
+    content: url("/img/classificacao-livre.svg") no-repeat 0px 2px;
     width: 20px;
     height: 20px;
-    background: url("/img/classificacao-14-anos.svg") no-repeat 0px 2px;
 }
 .desc-filme4::after {
+    content: url("/img/classificacao-livre.svg") no-repeat 0px 2px;
     width: 20px;
     height: 20px;
-    background: url("/img/classificacao-18-anos.svg") no-repeat 0px 2px;
 }
