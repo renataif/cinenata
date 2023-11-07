@@ -31,12 +31,11 @@ h2, h3, p{
 }
 
 .filme .exc{
-    width: 350px;
+    width: 250px;
 }
 
 .filme-desc{
     display: grid;
-    grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 5px;
 }
