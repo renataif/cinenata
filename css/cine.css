@@ -39,3 +39,7 @@ h2, h3, p{
     align-items: center;
     gap: 5px;
 }
+
+.clasf{
+    display: inline;
+}
