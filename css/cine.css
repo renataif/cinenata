@@ -1,61 +1,121 @@
-body{
-    margin: 0;
+body {
+  display: block;
+  margin: 0;
 }
 
-header{
-    background: #121212;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+header {
+  background: #121212;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-header img{
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-.exibicao{
-    margin-top: 60px;
+header img {
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-h2, h3, p{
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+.exibicao {
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 1150px;
 }
 
-.filmes{
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+.exibicao h2 {
+  margin-bottom: 40px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+.filmes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 45px;
+  padding: 0;
+  margin: 0;
 }
 
-.filme .exc{
-    width: 250px;
+.filme .exc {
+  width: 250px;
 }
 
-.filme-desc{
-    display: grid;
-    align-items: center;
-    gap: 5px;
+.filme h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
-.desc-filme1::after {
-    content: url("/img/classificacao-livre.svg") no-repeat 0px 2px;
-    width: 20px;
-    height: 20px;
+
+.filme p {
+  padding-top: 10px;
+  font-weight: bold;
 }
-.desc-filme2::after {
-    content: url("/img/classificacao-livre.svg") no-repeat 0px 2px;
-    width: 20px;
-    height: 20px;
+.filme-desc1 {
+  width: 150px;
+  height: 50px;
+  padding-left: 45px;
+  background: url(../img/classificacao-livre.svg) no-repeat 0 0;
 }
-.desc-filme3::after {
-    content: url("/img/classificacao-livre.svg") no-repeat 0px 2px;
-    width: 20px;
-    height: 20px;
+.filme-desc2 {
+  width: 150px;
+  height: 50px;
+  padding-left: 45px;
+  background: url(../img/classificacao-12-anos.svg) no-repeat 0 0;
 }
-.desc-filme4::after {
-    content: url("/img/classificacao-livre.svg") no-repeat 0px 2px;
-    width: 20px;
-    height: 20px;
+.filme-desc3 {
+  width: 150px;
+  height: 50px;
+  padding-left: 45px;
+  background: url(../img/classificacao-14-anos.svg) no-repeat 0 0;
+}
+.filme-desc4 {
+  width: 150px;
+  height: 50px;
+  padding-left: 45px;
+  background: url(../img/classificacao-18-anos.svg) no-repeat 0 0;
+}
+.filmes {
+  margin-bottom: 60px;
+}
+article {
+  background: #ff6900;
+  box-shadow: inset 0 100px #fff, inset 0 -100px #fff;
+}
+.estreia {
+  max-width: 1150px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  margin: 0 auto;
+}
+.estreia img {
+  width: 400px;
+}
+.sinopse {
+  max-width: 600px;
+}
+.sinopse h1 {
+  font-size: 2em;
+  margin-top: 30px;
+}
+.sinopse h2 {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.sinopse p {
+  font-size: 1.2em;
+  margin-bottom: 100px;
+}
+.clasestreia {
+  width: 150px;
+  height: 50px;
+  padding-left: 45px;
+  background: url(../img/classificacao-livre.svg) no-repeat 0 0;
 }
