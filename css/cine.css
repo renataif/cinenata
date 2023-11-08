@@ -94,6 +94,7 @@ article {
   grid-template-columns: 2fr 1fr;
   gap: 40px;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 .estreia img {
   width: 400px;
@@ -128,4 +129,26 @@ article {
 .clasestreia img {
   margin: -50px;
   position: absolute;
+}
+footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #121212;
+}
+.footer-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.footer-info p {
+  margin-top: 30px;
+  color: #e1e1e1;
+}
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
